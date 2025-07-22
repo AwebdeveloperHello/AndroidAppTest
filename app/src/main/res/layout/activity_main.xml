@@ -30,6 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/I2"
         android:layout_width="180dp"
         android:layout_height="55dp"
         android:fontFamily="monospace"
