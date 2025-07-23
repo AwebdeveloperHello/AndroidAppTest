@@ -3,6 +3,10 @@
     android:shape="rectangle"
     android:antialias="true">  <!-- Correct placement -->
 
-    <corners android:radius="16dp"/>
+    <corners
+        android:topRightRadius="0dp"
+        android:bottomRightRadius="16dp"
+        android:topLeftRadius="0dp"
+        android:bottomLeftRadius="16dp"/>
     <solid android:color="#1d1d1d"/>
 </shape>
